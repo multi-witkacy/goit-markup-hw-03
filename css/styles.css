@@ -11,6 +11,36 @@ body {
   background-color: var(--background-color);
 }
 
+/*start global reset*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*end global reset*/
+
 .big-first-letter {
   text-transform: uppercase;
 }
